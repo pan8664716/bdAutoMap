@@ -1,0 +1,34 @@
+# ===== 反编译产物 / 工作目录（一律不入库）=====
+_work/
+artifacts/
+.ccg/
+
+# ===== 验证截图（体积大，仅本地留档）=====
+shots/
+
+# ===== 构建产物 / 二进制 =====
+*.apk
+*.idsig
+*.so
+*.so.bak
+*.dex
+*.jar
+
+# ===== 临时 / 备份文件 =====
+*.bak
+*.bak_*
+*.log
+*.orig
+*.rej
+*.tmp
+*.diff
+*.patched
+
+# ===== 系统 / 编辑器 / Python =====
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+.vscode/
+*.swp
